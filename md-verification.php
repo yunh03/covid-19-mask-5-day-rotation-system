@@ -15,25 +15,25 @@
         echo '<script>location.href="/";</script>';
         exit;
     } else if($syears == "1") {
-        echo '<script>alert("생년의 맨 끝 자리가 1인 생년은 월요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("월요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "6") {
-        echo '<script>alert("생년의 맨 끝 자리가 6인 생년은 월요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("월요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "2") {
-        echo '<script>alert("생년의 맨 끝 자리가 2인 생년은 화요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("화요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "7") {
-        echo '<script>alert("생년의 맨 끝 자리가 7인 생년은 화요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("화요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "3") {
-        echo '<script>alert("생년의 맨 끝 자리가 3인 생년은 수요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("수요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "8") {
-        echo '<script>alert("생년의 맨 끝 자리가 8인 생년은 수요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("수요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "4") {
-        echo '<script>alert("생년의 맨 끝 자리가 4인 생년은 목요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("목요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "9") {
-        echo '<script>alert("생년의 맨 끝 자리가 9인 생년은 목요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("목요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "5") {
-        echo '<script>alert("생년의 맨 끝 자리가 5인 생년은 금요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("금요일에 구매할 수 있습니다.");</script>';
     } else if($syears == "0") {
-        echo '<script>alert("생년의 맨 끝 자리가 0인 생년은 금요일에 구매할 수 있습니다.");</script>';
+        echo '<script>alert("금요일에 구매할 수 있습니다.");</script>';
     } else {
         echo '<script>alert("올바른 생년을 입력하세요.");</script>';
     }

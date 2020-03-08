@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="0IU9E8RxHQ78y1tNvPoybPkab9qP1RW4JU2Z1BTKIgQ" />
+    <meta name="naver-site-verification" content="a480575adaed26dd08136c3a202ff44f7542f1c4"/>
+    <title>마스크데이 - 마스크 구매할 수 있는 날은?</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159954564-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159954564-1');
+    </script>
+    <meta name="description" content="마스크데이" />
+    <meta name="author" content="마스크데이" />
+    <meta property="og:url" content="https://maskday.kr">
+    <meta property="og:title" content="마스크데이 - 마스크 구매할 수 있는 날은?">
+    <meta http-equiv="Compatible" content="no-cache"/>
+    <meta property="og:type" content="website">
+    <meta name="description" content="마스크 5부제에서 본인이 마스크를 구매할 수 있는 날을 쉽게 조회합니다.">
+    <link rel="stylesheet" href="assets/md-style.css">
+    <link rel="stylesheet" href="assets/bootstrap-grid.css">
+    <link rel="icon" href="assets/img/icon.png" sizes="500x500">
+    <link rel="stylesheet" href="https://use.typekit.net/jlx1ftz.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        function press(f){
+            if(f.keyCode == 13){
+                years.submit();
+            }
+        }
+        function inNumber() {
+            if(event.keyCode<48 || event.keyCode>57) {
+            event.returnValue = false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <main class="md-1">
+        <div class="container">
+            <h1>MASK<span class="years">DAY</span></h1>
+            <p>2020년 3월 9일부터는 <span class="years">마스크 5부제</span> 시행으로 인해 생년에 따라 마스크를 구입할 수 있는 날이 정해집니다. 본인이 마스크를 구매할 수 있는 날을 <span class="years">아래에 생년을 입력</span>하여 조회해보세요.</p>
+            <form method="post" action="md-verification.php" name="years" autocomplete="off">
+                <input class="md-input" placeholder="ex) 2020" name="years" maxlength="4" oninput="if(this.value.length==4) this.form.submit();" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">
+            </form>
+            <h2>
+                마스크데이 2020 &#169; 모든 권한 보유<br /><br />
+                <a href="https://www.instagram.com/maskdaykr/">마스크데이 인스타그램</a>
+            </h2>
+        </div>
+    </main>
+</body>
+</html>

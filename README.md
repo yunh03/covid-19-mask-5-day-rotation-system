@@ -5,5 +5,5 @@
 - HTML, CSS
 - PHP
 
-## 데모 페이지
-https://maskday.kr
+## Link
+https://maskday.kr/

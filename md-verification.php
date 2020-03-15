@@ -1,5 +1,4 @@
 <?php
-    
     // $years에 생년 숫자 4자리 저장
     $years = $_POST['years'];
 

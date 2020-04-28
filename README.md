@@ -4,6 +4,3 @@
 ## 사용 언어
 - HTML, CSS
 - PHP
-
-## Link
-https://maskday.kr/
